@@ -7,7 +7,7 @@
       { "src": "yellow.mp3", "use": "@vercel/static" },
       { "src": "game.png", "use": "@vercel/static" },
       { "src": "green.mp3", "use": "@vercel/static" },
-    
+      { "src": "wrong.mp3", "use": "@vercel/static" },
     ],
     "routes": [
       { "handle": "filesystem" },
