@@ -68,9 +68,10 @@ function animatePress(currentColor) {
 }
 
 function playSound(name) {
-  var audio = new Audio( name + ".mp3");
+  var audio = new Audio("/" + name + ".mp3");  // Remove "sounds/" if not using that folder
   audio.play();
 }
+
 
 function startOver() {
   level = 0;
